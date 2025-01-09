@@ -26,12 +26,12 @@ try {
     $mail->Host       = 'Smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'Sender Email Id';                     //SMTP username
-    $mail->Password   = 'Sender Email Password';                               //SMTP password
+    $mail->Password   = 'Sender Email Password Or Passkey';        //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('ashwanihada00@gmail.com', 'Ashion Website');
+    $mail->setFrom('Receiver email id ', 'Ashion Website');
     $mail->addAddress($email);     //Add a recipient
  
 
