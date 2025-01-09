@@ -39,7 +39,7 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Ashion Newsletter ';
+    $mail->Subject = 'Ashion Newsletter';
     $mail->Body    = 'Hi , Thank You For Visiting Ashion . You Will Get Updates From Now';
     
 
