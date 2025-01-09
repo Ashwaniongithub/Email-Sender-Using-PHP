@@ -1,3 +1,2 @@
 # Email-Sender-Using-PHP
-hello
-hi
+Hi This is the email Sender Using PHPMailer.
